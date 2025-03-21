@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class LabProgram {
+   public static void main(String[] args) {
+      Scanner scnr = new Scanner(System.in);         
+      /* Type your code here. */
+      int x = scnr.nextInt();
+      int y = scnr.nextInt();
+      int z = scnr.nextInt();
+      int sum = (x+y+z);
+      if (x<0 || y<0 || z<0){
+         System.out.println("Invalid input!");
+      }
+      else if (sum % 3 == 0){
+         System.out.println(x + "" + y + "" + z + " is divisible by 3!");
+      }
+      else{
+         System.out.println(x + "" + y + "" + z + " is not divisible by 3!");
+      }
+      
+   }
+}
