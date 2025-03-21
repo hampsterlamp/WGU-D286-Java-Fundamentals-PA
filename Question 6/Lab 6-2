@@ -1,0 +1,19 @@
+import java.util.Scanner; 
+
+public class LabProgram {
+   public static void main(String[] args) {
+      Scanner scnr = new Scanner(System.in);       
+      /* Type your code here. */
+      String full = scnr.nextLine();
+      String [] name = full.split(" ");
+      String first = name[0];
+      String last = name[name.length -1];
+      String li = last.substring(0,1);
+       if (name.length == 3) {
+          System.out.println(li + "., " + first + " " + name[1].substring(0,1) + ".");
+       }
+       else {
+          System.out.println(li + "., " + first);
+       }
+   }
+}
