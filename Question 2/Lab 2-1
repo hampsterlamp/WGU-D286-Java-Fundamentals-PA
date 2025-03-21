@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class LabProgram {
+   public static void main(String[] args) {
+      Scanner scnr = new Scanner(System.in); 
+      /* Type your code here. */
+      int starting_num = scnr.nextInt();
+      int multiplier = scnr.nextInt();
+      int x = multiplier * starting_num;
+      
+      System.out.print(x + " ");
+      x = x*multiplier;
+      System.out.print(x + " ");
+      x = x*multiplier;
+      System.out.println(x);
+      x = x*multiplier;
+      
+   }
+}
