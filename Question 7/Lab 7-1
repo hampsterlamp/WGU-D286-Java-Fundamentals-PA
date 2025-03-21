@@ -1,0 +1,25 @@
+import java.util.Scanner; 
+
+public class LabProgram {
+   public static void main(String[] args) {
+      Scanner scnr = new Scanner(System.in);      
+      /* Type your code here. */
+      int sum = 0;
+      int x = 0 ;
+      int min = Integer.MAX_VALUE;
+      
+      while(x >= 0) {
+         x = scnr.nextInt();
+         if(x<0){
+            break;
+         }
+         sum = sum+x;
+         if(x<min) {
+            min = x;
+         }
+      }
+      System.out.println("Smallest: " + min);
+      System.out.println("Sum: " + sum);
+      
+   }
+}
