@@ -1,0 +1,16 @@
+public class LabProgram {
+   public static void main(String[] args) {
+      /* Type your code here. */
+      String H = "H   H";
+      String HH = "HHHHH";
+      
+      for (int i = 0; i < 5; i++){
+         if (i ==2) {
+            System.out.println(HH);
+         }
+         else{
+            System.out.println(H);
+         }
+      }
+   }
+}
