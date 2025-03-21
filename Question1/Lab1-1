@@ -1,0 +1,11 @@
+public class LabProgram {
+   public static void main(String[] args) {
+      /* Type your code here. */
+      System.out.println("H   H");
+      System.out.println("H   H");
+      System.out.println("HHHHH");
+      System.out.println("H   H");
+      System.out.println("H   H");
+      
+   }
+}
