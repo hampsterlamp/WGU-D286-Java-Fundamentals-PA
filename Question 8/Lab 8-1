@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class LabProgram {
+   public static void main(String[] args) {
+      Scanner scnr = new Scanner(System.in);
+      /* Type your code here. */
+      double[] array = new double[3];
+      for (int i = 0; i < 3; i++){
+         array[i] = scnr.nextDouble();
+      }
+      double avg = ((array[0]+array[1]+array[2]) / 3);
+      System.out.println("Array items: " + array[0] + ", " + array[1] + ", " + array[2]);
+      System.out.println("Average: " + avg);
+      
+   }
+}
